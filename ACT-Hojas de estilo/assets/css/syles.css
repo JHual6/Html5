@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+/* root es para declarar las variables */
+:root{
+
+    --color1: #01d7f4;
+    --color2: #ffdf03;
+    --color3: #fd7b03;
+    --color4: #ff0014;
+    --color5: #343434;
+    --color5boton: #4e4e4e;
+    --color6: #ffffff;
+    --color7: #a8a8a8;
+}
+.padre{
+
+    display: flex;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+/*Columna del 20%*/
+
+.columna20{
+
+    width: 20%;
+    background-color: var(--color5);
+    padding: 20px;
+}
+
+.boton{
+    color: var(--color6);
+    list-style: none;
+    transition: .5s;
+    cursor: pointer;
+    background-color: var(--color5boton);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.boton:hover{
+    color: var(--color7);
+    -webkit-box-shadow: 13px 11px 23px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 11px 23px 3px rgba(0,0,0,0.75);
+    box-shadow: 13px 11px 23px 3px rgba(0,0,0,0.75);
+}
+
+/* Columna del 80% */
+
+.columna80{
+
+    width: 80%;
+}
+
+.caja{
+    height: 25vh;
+    color: var(--color6);
+}
+
+.caja1{
+    background-color: #01d7f4;
+}
+
+.caja2{
+    background-color: var(--color2);
+}
+
+.caja3{
+    background-color: var(--color3);
+}
+
+.caja4{
+    background-color: var(--color4);
+}
